@@ -1,0 +1,58 @@
+
+GET  http://localhost:3000/api/players
+
+###
+GET  http://localhost:3000/api/players/1001
+
+###
+GET  http://localhost:3000/api/Schedule
+
+
+###
+GET  http://localhost:3000/api/Schedule/1001
+
+###
+GET  http://localhost:3000/api/events
+
+###
+GET  http://localhost:3000/api/liveScore
+
+
+
+
+###
+GET  http://localhost:3000/api/playerprofile
+
+###
+GET  http://localhost:3000/api/playerprofile?ittfID=1001
+
+
+###
+GET  http://localhost:3000/api/playerprofile?ittfID=1001&field=playerprofile
+
+###
+GET http://localhost:3000/api/playerprofile?ittfID=1001&field=PlayerProfile,contactS,personaldetails
+
+
+// playerStats
+###
+GET http://localhost:3000/api/playerstats?ittfID=1001
+
+###
+GET http://localhost:3000/api/playerstats?ittfID=1001&field=careergrowth&year=2024&category=ms
+
+
+
+
+// cosmosDBplayerprofiles 
+
+
+###
+POST  http://localhost:3000/api/playersadd
+
+###
+GET   http://localhost:3000/api/cosmosdb/playersprofiles
+
+###
+GET   http://localhost:3000/api/cosmosdb/playersprofiles/789124
+
